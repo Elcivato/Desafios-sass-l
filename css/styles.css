@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }
+  *::selection {
+    background-color: black;
+    color: #e96acd; }
+
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }
+
+header {
+  background-color: #e96acd;
+  display: flex;
+  gap: 20px;
+  grid-gap: 20px; }
+  header .logo {
+    width: 100px; }
+  header .navbar {
+    display: flex;
+    align-items: center; }
+    header .navbar .menu {
+      display: flex;
+      list-style-type: none;
+      gap: 10px;
+      grid-gap: 10px; }
+      header .navbar .menu .menu__item a {
+        background: white;
+        border: 5px solid white;
+        color: #e96acd;
+        text-decoration: none;
+        padding: 1rem; }
+        header .navbar .menu .menu__item a:hover {
+          background: #e96acd;
+          color: white; }
+
+.imagenPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 200px;
+  height: 80vh;
+  background-image: url(https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  .imagenPrincipal h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding-inline: 15px; }
+    .imagenPrincipal h2::first-letter {
+      color: #e96acd; }
+    .imagenPrincipal h2::selection {
+      background: #e96acd;
+      color: black; }
+  .imagenPrincipal p {
+    color: white;
+    text-align: center; }
+    .imagenPrincipal p::first-line {
+      color: #e96acd; }
+    .imagenPrincipal p::selection {
+      background: black;
+      color: #e96acd; }
+
+.tarjetitas {
+  padding: 60px;
+  display: flex;
+  gap: 30px; }
+  .tarjetitas .tarjetita {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    background-color: #e96acd;
+    border-radius: 30px;
+    overflow: hidden; }
+    .tarjetitas .tarjetita .informacion {
+      padding: 0 20px 20px 20px; }
+    .tarjetitas .tarjetita .tarjetita__imagen {
+      max-width: 100%; }
+    .tarjetitas .tarjetita.tarjetitados {
+      flex: 1.5; }
+
+.pie {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e96acd;
+  color: black;
+  padding-block: 20px;
+  text-align: center; }

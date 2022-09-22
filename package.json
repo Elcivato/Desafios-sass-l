@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./styles.scss ./css/styles.css -w"
+  },
+  "author": "Ciro Toscani",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
